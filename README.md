@@ -18,10 +18,10 @@ The meta-layer consists of three consecutive structured layers, performing pre-n
 ## Usage
 
 ### Environments
-●OS：18.04 
-●CUDA：11.6 
-●Toolkit：mindspore1.9 
-●GPU:GTX 3090
+●OS：18.04  
+●CUDA：11.6  
+●Toolkit：mindspore1.9  
+●GPU:GTX 3090 
 
 
 ### Install
