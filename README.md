@@ -10,10 +10,10 @@ The meta-layer consists of three consecutive structured layers, performing pre-n
 ![](https://markdown.liuchengtu.com/work/uploads/upload_e3d8507caa72fab8368ac263e9c0c8d5.png)
 
 ## Main Results
-- The proposed method, termed iSQRT-COV, is based on an iterative matrix square root normalization approach that relies on the Newton-Schulz iteration for both forward and backward propagations.
-- The core of iSQRT-COV is a meta-layer with a loop-embedded directed graph structure, designed to ensure both the convergence of the Newton-Schulz iteration and the performance of global covariance pooling networks.
-- The method is faster than EIG or SVD based ones, as it involves only matrix multiplications, making it suitable for parallel implementation on GPUs.
-- On the large-scale ImageNet dataset, the proposed network achieves competitive performance, surpassing existing counterparts. Furthermore, by fine-tuning models pre-trained on ImageNet, state-of-the-art results are established on three challenging fine-grained benchmarks.
+|Method           | Acc@1(%) | #Params.(M) | FLOPs(G) | Checkpoint                                                          |
+| ------------------ | ----- | ------- | ----- | ------------------------------------------------------------ |
+| ResNet-50   |  76.07 |  25.6   |   3.86  |               |
+| ResNet-50+ISQRT-COV(Ours)   | 0  |   0  |  0   |[Download](https://drive.google.com/file/d/1PBy8evHi-xiJHiTWgqrUs8jTH58hJM2n/view?usp=share_link)|
 
 ## Usage
 
