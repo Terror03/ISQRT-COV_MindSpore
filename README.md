@@ -83,15 +83,6 @@ For example:
 ```bash
 mpirun --allow-run-as-root -n 4 --output-filename log_output --merge-stderr-to-stdout python train.py  --config_path="./config/resnet50_imagenet2012_config.yaml" --run_distribute=True --device_num=4 --device_target="GPU" --data_path=./imagenet --output_path './output' &> log &
 ```
-## Citation
-
-@inproceedings{li2018towards,
-  title={Towards faster training of global covariance pooling networks by iterative matrix square root normalization},
-  author={Li, Peihua and Xie, Jiangtao and Wang, Qilong and Gao, Zilin},
-  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-  pages={947--955},
-  year={2018}
-}
 
 ## Acknowledgement
 The work was supported by the National Natural Science Foundation of China (No. 61471082). Peihua Li is the corresponding author.
